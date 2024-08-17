@@ -1,7 +1,11 @@
 trying commit
 Finally did it 
+<<<<<<< HEAD
 vhgkj
 hjhjvjhbkb
 fhgvhj,jnl
 ghhgkjlklkljl
 vhhjbjm
+=======
+gvhgvhjb kjkjk
+>>>>>>> e6dcfad (test 17 / 08)
