@@ -2,4 +2,8 @@ trying commit
 Finally did it 
 gvhgvhjb kjkjk
 
+<<<<<<< HEAD
 Welcome one !!!!!!!!!!!
+=======
+Welcome one!!
+>>>>>>> a30c289 (modified 17/08)
