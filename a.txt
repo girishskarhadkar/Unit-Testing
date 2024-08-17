@@ -2,12 +2,6 @@ trying commit
 Finally did it 
 gvhgvhjb kjkjk
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 Welcome one !!!!!!!!!!!
-=======
-Welcome one!!
->>>>>>> a30c289 (modified 17/08)
-=======
-Welcome one !!!!!!!!!!!!!
->>>>>>> 23a0ba4 (update a.txt)
+
+ghvfgmfh,gvh
