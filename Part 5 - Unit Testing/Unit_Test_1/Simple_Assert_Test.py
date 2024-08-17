@@ -6,11 +6,11 @@ def test_sqrt():
     
 def test_sqrt_faied():
     num = 25
-    assert math.sqrt(num) == 4
+    assert math.sqrt(num) == 5
 	
 def test_square():
     num = 7
-    assert 7*7 == 40
+    assert 7*7 == 49
 	
 def test_equality():
-    assert 10==11
+    assert 10==10

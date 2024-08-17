@@ -1,15 +1,13 @@
+import pytest
 from flask import Flask, request, jsonify, render_template
 
 app = Flask(__name__)
 
 # Temporary product data
 products = [
-    {
-        'id': 1,
-        'name': 'Mac Book Pro',
-        'price': 45.55,
-        'description': 'Amazing laptop with awesome security'
-    }
+    {"id": 1, "name": "Product 1", "price": 10, "description": "Description 1"},
+    {"id": 2, "name": "Product 2", "price": 20, "description": "Description 2"},
+    {"id": 3, "name": "Product 3", "price": 30, "description": "Description 3"},
 ]
 
 # Temporary cart data stored in a Python dictionary for each user
@@ -20,6 +18,13 @@ carts = {}
 def get_products():
     return jsonify(products)
 
+def test_total_products():
+    product = next((p for p in products if p['id'] == 4), None)
+    if product:
+        assert True
+    else:
+        assert False
+        
 @app.route('/display_product/<int:product_id>', methods=['GET'])
 def get_product(product_id):
     product = next((p for p in products if p['id'] == product_id), None)
